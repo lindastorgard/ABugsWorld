@@ -25,10 +25,10 @@
 </template>
 
 <script>
-import TextSection from '../components//TextSection.vue';
-import DefaultLink from '../components//DefaultLink.vue';
-import AnimationOne from '../components//AnimationOne.vue';
-import AnimationTwo from '../components//AnimationTwo.vue';
+import TextSection from '../components/TextSection.vue';
+import DefaultLink from '../components/DefaultLink.vue';
+import AnimationOne from '../components/AnimationOne.vue';
+import AnimationTwo from '../components/AnimationTwo.vue';
 
 export default {
   name: 'Result',

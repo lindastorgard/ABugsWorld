@@ -19,9 +19,9 @@
 <script>
 import BackgroundImage from '../components/BackgroundImage.vue';
 import Layout from '../components//Layout.vue';
-import TextSection from '../components//TextSection.vue';
-import DefaultLink from '../components//DefaultLink.vue';
-import TreeImage from '../components//TreeImage.vue';
+import TextSection from '../components/TextSection.vue';
+import DefaultLink from '../components/DefaultLink.vue';
+import TreeImage from '../components/TreeImage.vue';
 
 export default {
   name: 'Home',

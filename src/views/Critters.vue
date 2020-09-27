@@ -43,10 +43,10 @@
 
 <script>
 import Loader from '../components/Loader.vue';
-import Result from '../components//Result.vue';
+import Result from '../components/Result.vue';
 import BackgroundImage from '../components/BackgroundImage.vue';
-import Layout from '../components//Layout.vue';
-import TextSection from '../components//TextSection.vue';
+import Layout from '../components/Layout.vue';
+import TextSection from '../components/TextSection.vue';
 
 export default {
   name: 'Critters',
