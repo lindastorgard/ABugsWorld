@@ -15,20 +15,19 @@ export default {
 };
 </script>
 
-<style scoped>
-img {
-  width: 30px;
-  height: auto;
-}
+<style scoped lang="scss">
 .animation {
   width: 50px;
   margin: 0 auto;
   animation: spin 0.8s linear infinite;
-}
-
-@keyframes spin {
-  100% {
-    transform: rotate(360deg);
+  @keyframes spin {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  img {
+    width: 30px;
+    height: auto;
   }
 }
 </style>

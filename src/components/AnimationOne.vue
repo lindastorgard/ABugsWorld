@@ -17,61 +17,60 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .animation {
   position: relative;
-}
-.bug1,
-.bug7 {
-  width: 30px;
-  height: auto;
-  animation: spin2 0.4s linear infinite;
-}
-
-.bug2,
-.bug8 {
-  width: 40px;
-  height: auto;
-  animation: spin1 0.3s linear infinite;
-}
-
-.bug3 {
-  width: 30px;
-  height: auto;
-  animation: spin2 0.6s linear infinite;
-}
-
-.bug4 {
-  width: 20px;
-  height: auto;
-  animation: spin1 0.8s linear infinite;
-}
-
-.bug5 {
-  width: 50px;
-  height: auto;
-  animation: spin2 0.3s linear infinite;
-}
-
-.bug6 {
-  width: 40px;
-  height: auto;
-  animation: spin1 0.6s linear infinite;
-}
-@keyframes spin1 {
-  50% {
-    transform: rotate(20deg);
+  .bug1,
+  .bug7 {
+    width: 30px;
+    height: auto;
+    animation: spin2 0.4s linear infinite;
   }
-  100% {
-    transform: rotate(0deg);
+
+  .bug2,
+  .bug8 {
+    width: 40px;
+    height: auto;
+    animation: spin1 0.3s linear infinite;
   }
-}
-@keyframes spin2 {
-  50% {
-    transform: rotate(-40deg);
+
+  .bug3 {
+    width: 30px;
+    height: auto;
+    animation: spin2 0.6s linear infinite;
   }
-  100% {
-    transform: rotate(0deg);
+
+  .bug4 {
+    width: 20px;
+    height: auto;
+    animation: spin1 0.8s linear infinite;
+  }
+
+  .bug5 {
+    width: 50px;
+    height: auto;
+    animation: spin2 0.3s linear infinite;
+  }
+  .bug6 {
+    width: 40px;
+    height: auto;
+    animation: spin1 0.6s linear infinite;
+  }
+  @keyframes spin1 {
+    50% {
+      transform: rotate(20deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  @keyframes spin2 {
+    50% {
+      transform: rotate(-40deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
   }
 }
 </style>

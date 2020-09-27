@@ -80,45 +80,44 @@ export default {
 <style lang="scss">
 .inputWrapper {
   margin: 20px 0;
-}
-
-.flexParent {
-  display: flex;
-  flex-direction: column;
-  .flexChild {
+  .flexParent {
     display: flex;
     flex-direction: column;
-    p {
-      padding-right: 10px;
-    }
-    input {
-      appearance: none;
-      height: 8px;
-      background: #fff;
-      outline: none;
-      opacity: 0.7;
-      transition: opacity 0.2s;
-      border-radius: 10px;
-      border: 1px solid $green;
-    }
-    input:hover {
-      opacity: 1;
-    }
-    input::-webkit-slider-thumb {
-      appearance: none;
-      width: 15px;
-      height: 15px;
-      border-radius: 50%;
-      background: $green;
-      cursor: pointer;
-    }
+    .flexChild {
+      display: flex;
+      flex-direction: column;
+      p {
+        padding-right: 10px;
+      }
+      input {
+        appearance: none;
+        height: 8px;
+        background: #fff;
+        outline: none;
+        opacity: 0.7;
+        transition: opacity 0.2s;
+        border-radius: 10px;
+        border: 1px solid $green;
+      }
+      input:hover {
+        opacity: 1;
+      }
+      input::-webkit-slider-thumb {
+        appearance: none;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: $green;
+        cursor: pointer;
+      }
 
-    input::-moz-range-thumb {
-      width: 15px;
-      height: 15px;
-      border-radius: 50%;
-      background: $green;
-      cursor: pointer;
+      input::-moz-range-thumb {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: $green;
+        cursor: pointer;
+      }
     }
   }
 }
